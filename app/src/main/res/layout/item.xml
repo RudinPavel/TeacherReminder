@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:id="@+id/listenerName"
+            android:layout_width="79dp"
+            android:layout_height="match_parent"
+            android:text="name "
+            android:textColor="#677566"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/listenerLogin"
+            android:layout_width="89dp"
+            android:layout_height="match_parent"
+            android:text="login "
+            android:textColor="#677566"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/listenerEmail"
+            android:layout_width="89dp"
+            android:layout_height="match_parent"
+            android:text="email "
+            android:textColor="#677566"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/listenerInfo"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:text="info"
+            android:textColor="#677566"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
